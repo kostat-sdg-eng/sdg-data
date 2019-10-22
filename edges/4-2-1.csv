@@ -1,5 +1,8 @@
 From,To
+Learning category,Sex
+Country,Learning category
 Region,Local Authority
-Ethnicity,Ethnic group
+Region,County
+Learning category,Region
 Learning category,Learning sub-category (higher)
 Learning sub-category (higher),Learning sub-category (lower)
