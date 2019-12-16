@@ -25,11 +25,6 @@ prose:
             label: "Layout"
             scope: page
     ######### Global Metadata #########
-      - name: "indicator_name"
-        field:
-            element: text
-            label: "Indicator name"
-            scope: global
       - name: "indicator"
         field:
             element: hidden
@@ -40,15 +35,20 @@ prose:
             element: text
             label: "Indicator display order (within Goal page)"
             scope: data
-      - name: "target"
+      - name: "indicator_name"
         field:
             element: text
-            label: "Target name"
+            label: "Indicator name"
             scope: global
       - name: "target_id"
         field:
             element: text
             label: "Target number"
+            scope: global
+      - name: "target"
+        field:
+            element: text
+            label: "Target name"
             scope: global
       - name: "indicator_definition"
         field:
@@ -81,7 +81,7 @@ prose:
         field:
             element: text
             label: "Indicator available"
-            scope: national
+            scope: data
       - name: "national_indicator_description"
         field:
             element: text
@@ -202,6 +202,11 @@ prose:
             label: Source 1 active
             help: Whether or not to display this source
             value: true
+      - name: source_report_name_1
+        field:
+            element: text
+            label: "Report"
+            scope: source_1
       - name: source_organisation_1
         field:
             element: text
@@ -269,6 +274,11 @@ prose:
             label: Source 2 active
             help: Whether or not to display this source
             value: false
+      - name: source_report_name_2
+        field:
+            element: text
+            label: "Report"
+            scope: source_2
       - name: source_organisation_2
         field:
             element: text
@@ -336,6 +346,11 @@ prose:
             label: Source 3 active
             help: Whether or not to display this source
             value: false
+      - name: source_report_name_3
+        field:
+            element: text
+            label: "Report"
+            scope: source_3
       - name: source_organisation_3
         field:
             element: text
@@ -403,6 +418,11 @@ prose:
             label: Source 4 active
             help: Whether or not to display this source
             value: true
+      - name: source_report_name_4
+        field:
+            element: text
+            label: "Report"
+            scope: source_4
       - name: source_organisation_4
         field:
             element: text
@@ -470,6 +490,11 @@ prose:
             label: Source 5 active
             help: Whether or not to display this source
             value: true
+      - name: source_report_name_5
+        field:
+            element: text
+            label: "Report"
+            scope: source_5
       - name: source_organisation_5
         field:
             element: text
@@ -537,6 +562,11 @@ prose:
             label: Source 6 active
             help: Whether or not to display this source
             value: true
+      - name: source_report_name_6
+        field:
+            element: text
+            label: "Report"
+            scope: source_6
       - name: source_organisation_6
         field:
             element: text
