@@ -104,7 +104,7 @@ prose:
             scope: national
       - name: "computation_calculations"
         field:
-            element: text
+            element: hidden
             label: "Calculations"
             scope: national
       - name: "comments_limitations"
