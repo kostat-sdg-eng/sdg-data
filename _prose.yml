@@ -41,56 +41,10 @@ prose:
             label: "Link to UN metadata text"
             value: "UN metadata"
             scope: global
-      - name: "indicator"
-        field:
-            element: hidden
-            label: "Indicator number"
-            scope: global
-      - name: "indicator_sort_order"
-        field:
-            element: text
-            label: "Indicator display order (within Goal page)"
-            scope: data
-      - name: "indicator_name"
-        field:
-            element: text
-            label: "Indicator name"
-            scope: global
-      - name: "target_id"
-        field:
-            element: text
-            label: "Target number"
-            scope: global
-      - name: "target"
-        field:
-            element: text
-            label: "Target name"
-            scope: global
       - name: "indicator_definition"
         field:
             element: textarea
             label: "Global indicator description"
-            scope: global
-      - name: "un_designated_tier"
-        field: 
-            element: text
-            label: "UN designated tier"
-            scope: global
-      - name: "un_custodian_agency"
-        field: 
-            element: text
-            label: "UN custodian agency"
-            scope: global
-      - name: "goal_meta_link"
-        field:
-            element: text
-            label: "Link to UN metadata"
-            scope: global
-      - name: "goal_meta_link_text"
-        field:
-            element: text
-            label: "Link to UN metadata text"
-            value: "UN metadata"
             scope: global
       ######### National Metadata #########            
       - name: "target"
@@ -113,46 +67,6 @@ prose:
             element: text
             label: "Indicator description"
             scope: national
-      - name: "national_geographical_coverage"
-        field:
-            element: text
-            label: "Geographical coverage"
-            scope: national
-      - name: "computation_units"
-        field:
-            element: text
-            label: "Unit of measurement"
-            scope: national
-      - name: "computation_definitions"
-        field:
-            element: textarea
-            label: "Definitions"
-            scope: national
-      - name: "comments_limitations"
-        field:
-            element: text
-            label: "Other information"
-            scope: national
-      - name: "national_data_update_url"
-        field:
-            element: hidden
-            label: "Data last updated"
-            scope: national
-      - name: "national_data_update_url_text"
-        field:
-            element: hidden
-            label: "Data last updated"
-            scope: national
-      - name: "national_metadata_update_url"
-        field:
-            element: hidden
-            label: "Metadata last updated"
-            scope: national
-      - name: "national_metadata_update_url_text"
-        field:
-            element: hidden
-            label: "Metadata last updated"
-            scope: national
        ######### Data Info #########
       - name: "reporting_status"
         field: 
@@ -164,8 +78,7 @@ prose:
                 translation_key: 'status.reported_online'
               - name: 'notstarted'
                 value: 'notstarted'
-                translation_key: 'status.exploring_data_sources'
-                
+                translation_key: 'status.exploring_data_sources'                
             scope: data
       - name: data_non_statistical
         field:
