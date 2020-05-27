@@ -51,7 +51,7 @@ prose:
         field:
             element: text
             label: "Indicator name"
-            scope: national	    
+            scope: nationa
       - name: "indicator_definition"
         field:
             element: textarea
