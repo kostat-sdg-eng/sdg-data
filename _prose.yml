@@ -41,27 +41,27 @@ prose:
             label: "Link to UN metadata text"
             value: "UN metadata"
             scope: global
-      - name: "indicator_definition"
-        field:
-            element: textarea
-            label: "Global indicator description"
-            scope: global
       ######### National Metadata #########            
       - name: "target"
         field:
             element: text
             label: "Target name"
-            scope: data
+            scope: national
       - name: "indicator_name"
         field:
             element: text
             label: "Indicator name"
-            scope: data
+            scope: national	    
+      - name: "indicator_definition"
+        field:
+            element: textarea
+            label: "Global indicator description"
+            scope: national
       - name: "national_indicator_available"
         field:
             element: text
             label: "Indicator available"
-            scope: data
+            scope: national
       - name: "national_indicator_description"
         field:
             element: text
