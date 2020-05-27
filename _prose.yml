@@ -102,11 +102,6 @@ prose:
               - name: 'bar'
                 value: 'bar'
             scope: graph
-      - name: "graph_title"
-        field: 
-            element: text
-            label: "Graph Title"
-            scope: graph
       ######### National Sources #########
       ## Source 1
       - name: source_active_1
