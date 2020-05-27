@@ -25,7 +25,7 @@ prose:
             label: "Layout"
             scope: page
     ######### Global Metadata #########    
-      - name: "source_url_1"
+      - name: "goal_meta_local_link"
         field:
             element: text
             label: "Link to data source"
