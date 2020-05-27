@@ -35,12 +35,6 @@ prose:
             element: text
             label: "Link to UN metadata"
             scope: global
-      - name: "goal_meta_link_text"
-        field:
-            element: text
-            label: "Link to UN metadata text"
-            value: "UN metadata"
-            scope: global
       ######### National Metadata #########            
       - name: "indicator_name"
         field:
