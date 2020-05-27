@@ -24,7 +24,23 @@ prose:
             element: hidden
             label: "Layout"
             scope: page
-    ######### Global Metadata #########
+    ######### Global Metadata #########    
+      - name: "source_url_1"
+        field:
+            element: text
+            label: "Link to data source"
+            scope: global	    
+      - name: "goal_meta_link"
+        field:
+            element: text
+            label: "Link to UN metadata"
+            scope: global
+      - name: "goal_meta_link_text"
+        field:
+            element: text
+            label: "Link to UN metadata text"
+            value: "UN metadata"
+            scope: global
       - name: "indicator"
         field:
             element: hidden
@@ -76,7 +92,17 @@ prose:
             label: "Link to UN metadata text"
             value: "UN metadata"
             scope: global
-      ######### National Metadata #########
+      ######### National Metadata #########            
+      - name: "target"
+        field:
+            element: text
+            label: "Target name"
+            scope: data
+      - name: "indicator_name"
+        field:
+            element: text
+            label: "Indicator name"
+            scope: data
       - name: "national_indicator_available"
         field:
             element: text
