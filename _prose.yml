@@ -29,7 +29,7 @@ prose:
         field:
             element: text
             label: "Link to data source"
-            scope: global	    
+            scope: global
       - name: "goal_meta_link"
         field:
             element: text
