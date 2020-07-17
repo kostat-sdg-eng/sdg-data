@@ -24,7 +24,7 @@ prose:
             element: hidden
             label: "Layout"
             scope: page
-    ######### Global Metadata ## Metadata #######
+    ######### Global Metadata - Metadata #########
       - name: "National_medadata"
         field:
             element: text
@@ -35,7 +35,7 @@ prose:
             element: text
             label: "Global medadata"
             scope: global
-      ######### National Metadata ## Indicator name and definition #######
+     ######### National Metadata - Indicator name and definition #########
       - name: "indicator_name"
         field:
             element: text
