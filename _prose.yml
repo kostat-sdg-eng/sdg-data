@@ -24,18 +24,18 @@ prose:
             element: hidden
             label: "Layout"
             scope: page
-    ######### Global Metadata - Metadata #########
-      - name: "National_medadata"
+    ######### Global Metadata #########
+      - name: "national_metadata"
         field:
             element: text
-            label: "National medadata"
+            label: "National metadata"
             scope: global
-      - name: "Global_medadata"
+      - name: "global_metadata"
         field:
             element: text
-            label: "Global medadata"
+            label: "Global metadata"
             scope: global
-     ######### National Metadata - Indicator name and definition #########
+     ######### National Metadata #########
       - name: "indicator_name"
         field:
             element: text
@@ -43,7 +43,7 @@ prose:
             scope: national
       - name: "national_indicator_description"
         field:
-            element: text
+            element: textarea
             label: "Indicator description"
             scope: national
        ######### Data Info #########
@@ -57,8 +57,7 @@ prose:
                 translation_key: 'status.reported_online'
               - name: 'notstarted'
                 value: 'notstarted'
-                translation_key: 'status.exploring_data_sources'
-                
+                translation_key: 'status.exploring_data_sources'                
             scope: data
       - name: data_non_statistical
         field:
