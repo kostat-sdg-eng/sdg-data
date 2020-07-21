@@ -82,20 +82,10 @@ prose:
             element: text
             label: "Indicator name"
             scope: national
-      - name: "indicator_definition"
+      - name: "national_indicator_description"
         field:
             element: textarea
-            label: "Global indicator description"
-            scope: national
-      - name: "national_metadata_update_url"
-        field:
-            element: hidden
-            label: "Metadata last updated"
-            scope: national
-      - name: "national_metadata_update_url_text"
-        field:
-            element: hidden
-            label: "Metadata last updated"
+            label: "Indicator description"
             scope: national
        ######### Data Info #########
       - name: "reporting_status"
