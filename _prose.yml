@@ -25,10 +25,15 @@ prose:
             label: "Layout"
             scope: page
     ######### Global Metadata #########
-      - name: "indicator_name"
+      - name: "national_metadata"
         field:
             element: text
-            label: "Indicator name"
+            label: "National metadata"
+            scope: global
+      - name: "global_metadata"
+        field:
+            element: text
+            label: "Global metadata"
             scope: global
       - name: "indicator"
         field:
@@ -49,11 +54,6 @@ prose:
         field:
             element: text
             label: "Target number"
-            scope: global
-      - name: "indicator_definition"
-        field:
-            element: textarea
-            label: "Global indicator description"
             scope: global
       - name: "un_designated_tier"
         field: 
@@ -77,50 +77,15 @@ prose:
             value: "UN metadata"
             scope: global
       ######### National Metadata #########
-      - name: "national_indicator_available"
+      - name: "indicator_name"
         field:
             element: text
-            label: "Indicator available"
+            label: "Indicator name"
             scope: national
-      - name: "national_indicator_description"
-        field:
-            element: text
-            label: "Indicator description"
-            scope: national
-      - name: "national_geographical_coverage"
-        field:
-            element: text
-            label: "Geographical coverage"
-            scope: national
-      - name: "computation_units"
-        field:
-            element: text
-            label: "Unit of measurement"
-            scope: national
-      - name: "computation_definitions"
+      - name: "indicator_definition"
         field:
             element: textarea
-            label: "Definitions"
-            scope: national
-      - name: "computation_calculations"
-        field:
-            element: text
-            label: "Calculations"
-            scope: national
-      - name: "comments_limitations"
-        field:
-            element: text
-            label: "Other information"
-            scope: national
-      - name: "national_data_update_url"
-        field:
-            element: hidden
-            label: "Data last updated"
-            scope: national
-      - name: "national_data_update_url_text"
-        field:
-            element: hidden
-            label: "Data last updated"
+            label: "Global indicator description"
             scope: national
       - name: "national_metadata_update_url"
         field:
