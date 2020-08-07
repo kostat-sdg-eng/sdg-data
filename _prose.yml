@@ -28,12 +28,12 @@ prose:
       - name: "national_metadata"
         field:
             element: text
-            label: "National metadata"
+            label: "Link to data source"
             scope: global
       - name: "global_metadata"
         field:
             element: text
-            label: "Global metadata"
+            label: "Link to data source"
             scope: global
       ######### National Metadata #########
       - name: "indicator_name"
