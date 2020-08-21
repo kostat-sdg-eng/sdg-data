@@ -19,23 +19,23 @@ Year,Units,Value
 2017,Percentage(%) of GDP,27.33
 2018,Percentage(%) of GDP,27.47
 2019,Percentage(%) of GDP,27.53
-2000,GDP per capita,3520.1
-2001,GDP per capita,3626.3
-2002,GDP per capita,3927.9
-2003,GDP per capita,4099.8
-2004,GDP per capita,4486.0
-2005,GDP per capita,4722.1
-2006,GDP per capita,5065.1
-2007,GDP per capita,5471.6
-2008,GDP per capita,5665.8
-2009,GDP per capita,5625.9
-2010,GDP per capita,6356.1
-2011,GDP per capita,6741.5
-2012,GDP per capita,6870.1
-2013,GDP per capita,7078.1
-2014,GDP per capita,7287.1
-2015,GDP per capita,7378.5
-2016,GDP per capita,7538.2
-2017,GDP per capita,7845.9
-2018,GDP per capita,8083.5
-2019,GDP per capita,8251.9
+2000,GDP per capita(Constant 2015 US dollars),3520.1
+2001,GDP per capita(Constant 2015 US dollars),3626.3
+2002,GDP per capita(Constant 2015 US dollars),3927.9
+2003,GDP per capita(Constant 2015 US dollars),4099.8
+2004,GDP per capita(Constant 2015 US dollars),4486.0
+2005,GDP per capita(Constant 2015 US dollars),4722.1
+2006,GDP per capita(Constant 2015 US dollars),5065.1
+2007,GDP per capita(Constant 2015 US dollars),5471.6
+2008,GDP per capita(Constant 2015 US dollars),5665.8
+2009,GDP per capita(Constant 2015 US dollars),5625.9
+2010,GDP per capita(Constant 2015 US dollars),6356.1
+2011,GDP per capita(Constant 2015 US dollars),6741.5
+2012,GDP per capita(Constant 2015 US dollars),6870.1
+2013,GDP per capita(Constant 2015 US dollars),7078.1
+2014,GDP per capita(Constant 2015 US dollars),7287.1
+2015,GDP per capita(Constant 2015 US dollars),7378.5
+2016,GDP per capita(Constant 2015 US dollars),7538.2
+2017,GDP per capita(Constant 2015 US dollars),7845.9
+2018,GDP per capita(Constant 2015 US dollars),8083.5
+2019,GDP per capita(Constant 2015 US dollars),8251.9
