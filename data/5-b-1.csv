@@ -1,13 +1,61 @@
-Year,Sex,Value
-2014,,84.67
-2014,FEMALE,81.58
-2014,MALE,87.72
-2015,,95.74
-2015,FEMALE,94.53
-2015,MALE,96.94
-2016,,90.04
-2016,FEMALE,87.64
-2016,MALE,92.41
-2017,,94.35
-2017,FEMALE,93.05
-2017,MALE,95.62
+Year,Type,Sex,Age,Value
+2018,Mobile,,,91.4
+2018,Mobile,MALE,,83.8
+2018,Mobile,FEMALE,,89.0
+2018,Mobile,,6-10,96.9
+2018,Mobile,,20-29,99.9
+2018,Mobile,,30-39,99.9
+2018,Mobile,,40-49,99.8
+2018,Mobile,,50-59,98.5
+2018,Mobile,,60-69,87.7
+2018,Mobile,,70+,37.5
+2018,Smart phone,,,91.0
+2018,Smart phone,MALE,,93.4
+2018,Smart phone,FEMALE,,88.6
+2018,Smart phone,,6-10,95.5
+2018,Smart phone,,20-29,99.9
+2018,Smart phone,,30-39,99.9
+2018,Smart phone,,40-49,99.7
+2018,Smart phone,,50-59,98.4
+2018,Smart phone,,60-69,87.5
+2018,Smart phone,,70+,36.3
+2018,Cellular phone,,,8.2
+2018,Cellular phone,MALE,,6.0
+2018,Cellular phone,FEMALE,,10.4
+2018,Cellular phone,,6-10,1.8
+2018,Cellular phone,,20-29,0.3
+2018,Cellular phone,,30-39,0.1
+2018,Cellular phone,,40-49,0.4
+2018,Cellular phone,,50-59,1.8
+2018,Cellular phone,,60-69,12.9
+2018,Cellular phone,,70+,58.4
+2019,Mobile,,,92.4
+2019,Mobile,MALE,,94.5
+2019,Mobile,FEMALE,,90.3
+2019,Mobile,,6-10,97.1
+2019,Mobile,,20-29,100.0
+2019,Mobile,,30-39,99.9
+2019,Mobile,,40-49,99.9
+2019,Mobile,,50-59,99.8
+2019,Mobile,,60-69,92.0
+2019,Mobile,,70+,41.0
+2019,Smart phone,,,92.2
+2019,Smart phone,MALE,,94.4
+2019,Smart phone,FEMALE,,90.0
+2019,Smart phone,,6-10,96.6
+2019,Smart phone,,20-29,99.9
+2019,Smart phone,,30-39,99.9
+2019,Smart phone,,40-49,99.9
+2019,Smart phone,,50-59,99.8
+2019,Smart phone,,60-69,92.0
+2019,Smart phone,,70+,40.2
+2019,Cellular phone,,,8.1
+2019,Cellular phone,MALE,,6.2
+2019,Cellular phone,FEMALE,,10.1
+2019,Cellular phone,,6-10,2.1
+2019,Cellular phone,,20-29,0.4
+2019,Cellular phone,,30-39,0.6
+2019,Cellular phone,,40-49,1.4
+2019,Cellular phone,,50-59,1.6
+2019,Cellular phone,,60-69,10.6
+2019,Cellular phone,,70+,56.1
